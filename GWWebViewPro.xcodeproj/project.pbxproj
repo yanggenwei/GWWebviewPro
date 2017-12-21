@@ -1,0 +1,450 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		225760561FE90FE000DFC770 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 225760551FE90FE000DFC770 /* AppDelegate.m */; };
+		2257605E1FE90FE000DFC770 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2257605D1FE90FE000DFC770 /* Assets.xcassets */; };
+		225760611FE90FE000DFC770 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2257605F1FE90FE000DFC770 /* LaunchScreen.storyboard */; };
+		225760641FE90FE000DFC770 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 225760631FE90FE000DFC770 /* main.m */; };
+		2257607D1FE91B6500DFC770 /* GWWebView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2257607C1FE91B6500DFC770 /* GWWebView.m */; };
+		22B0C36D1FEB9802003F033D /* PMBTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0C36A1FEB97CF003F033D /* PMBTools.m */; };
+		22B0C36E1FEB9802003F033D /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 22B0C36C1FEB97CF003F033D /* UIView+Size.m */; };
+		22B0C3721FEB9F79003F033D /* download.png in Resources */ = {isa = PBXBuildFile; fileRef = 22B0C3711FEB9F79003F033D /* download.png */; };
+		22EB15E41FEA8D67008721D6 /* GWRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EB15E31FEA8D67008721D6 /* GWRootViewController.m */; };
+		22EB15EA1FEA8E49008721D6 /* GWImageBrowseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 22EB15E91FEA8E49008721D6 /* GWImageBrowseView.m */; };
+		623F4745CF603625B807F784 /* libPods-GWWebViewPro.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB84EDB4A6D030D6B3ECBC05 /* libPods-GWWebViewPro.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		225760511FE90FE000DFC770 /* GWWebViewPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GWWebViewPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		225760541FE90FE000DFC770 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		225760551FE90FE000DFC770 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2257605D1FE90FE000DFC770 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		225760601FE90FE000DFC770 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		225760621FE90FE000DFC770 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225760631FE90FE000DFC770 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2257607B1FE91B6500DFC770 /* GWWebView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWWebView.h; sourceTree = "<group>"; };
+		2257607C1FE91B6500DFC770 /* GWWebView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWWebView.m; sourceTree = "<group>"; };
+		22B0C3601FEB8F1E003F033D /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		22B0C3691FEB97CF003F033D /* PMBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PMBTools.h; sourceTree = "<group>"; };
+		22B0C36A1FEB97CF003F033D /* PMBTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PMBTools.m; sourceTree = "<group>"; };
+		22B0C36B1FEB97CF003F033D /* UIView+Size.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		22B0C36C1FEB97CF003F033D /* UIView+Size.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		22B0C3711FEB9F79003F033D /* download.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = download.png; sourceTree = "<group>"; };
+		22EB15E21FEA8D67008721D6 /* GWRootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWRootViewController.h; sourceTree = "<group>"; };
+		22EB15E31FEA8D67008721D6 /* GWRootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWRootViewController.m; sourceTree = "<group>"; };
+		22EB15E81FEA8E49008721D6 /* GWImageBrowseView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GWImageBrowseView.h; sourceTree = "<group>"; };
+		22EB15E91FEA8E49008721D6 /* GWImageBrowseView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GWImageBrowseView.m; sourceTree = "<group>"; };
+		6E614231BEE53AA377706711 /* Pods-GWWebViewPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWWebViewPro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GWWebViewPro/Pods-GWWebViewPro.debug.xcconfig"; sourceTree = "<group>"; };
+		8F3E9B523F4A7E1C9308BA2F /* Pods-GWWebViewPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GWWebViewPro.release.xcconfig"; path = "Pods/Target Support Files/Pods-GWWebViewPro/Pods-GWWebViewPro.release.xcconfig"; sourceTree = "<group>"; };
+		DB84EDB4A6D030D6B3ECBC05 /* libPods-GWWebViewPro.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GWWebViewPro.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2257604E1FE90FE000DFC770 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				623F4745CF603625B807F784 /* libPods-GWWebViewPro.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E622F8694F44250692AB81B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E614231BEE53AA377706711 /* Pods-GWWebViewPro.debug.xcconfig */,
+				8F3E9B523F4A7E1C9308BA2F /* Pods-GWWebViewPro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		225760481FE90FE000DFC770 = {
+			isa = PBXGroup;
+			children = (
+				225760531FE90FE000DFC770 /* GWWebViewPro */,
+				225760521FE90FE000DFC770 /* Products */,
+				1E622F8694F44250692AB81B /* Pods */,
+				DB7DAF733A67B661CF49557D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		225760521FE90FE000DFC770 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				225760511FE90FE000DFC770 /* GWWebViewPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		225760531FE90FE000DFC770 /* GWWebViewPro */ = {
+			isa = PBXGroup;
+			children = (
+				22B0C3711FEB9F79003F033D /* download.png */,
+				22B0C3601FEB8F1E003F033D /* PrefixHeader.pch */,
+				225760541FE90FE000DFC770 /* AppDelegate.h */,
+				225760551FE90FE000DFC770 /* AppDelegate.m */,
+				22EB15E21FEA8D67008721D6 /* GWRootViewController.h */,
+				22EB15E31FEA8D67008721D6 /* GWRootViewController.m */,
+				22B0C3681FEB97CF003F033D /* Tools */,
+				2257606A1FE9108000DFC770 /* GWWebView */,
+				2257605D1FE90FE000DFC770 /* Assets.xcassets */,
+				2257605F1FE90FE000DFC770 /* LaunchScreen.storyboard */,
+				225760621FE90FE000DFC770 /* Info.plist */,
+				225760631FE90FE000DFC770 /* main.m */,
+			);
+			path = GWWebViewPro;
+			sourceTree = "<group>";
+		};
+		2257606A1FE9108000DFC770 /* GWWebView */ = {
+			isa = PBXGroup;
+			children = (
+				2257607B1FE91B6500DFC770 /* GWWebView.h */,
+				2257607C1FE91B6500DFC770 /* GWWebView.m */,
+				22EB15E81FEA8E49008721D6 /* GWImageBrowseView.h */,
+				22EB15E91FEA8E49008721D6 /* GWImageBrowseView.m */,
+			);
+			path = GWWebView;
+			sourceTree = "<group>";
+		};
+		22B0C3681FEB97CF003F033D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				22B0C3691FEB97CF003F033D /* PMBTools.h */,
+				22B0C36A1FEB97CF003F033D /* PMBTools.m */,
+				22B0C36B1FEB97CF003F033D /* UIView+Size.h */,
+				22B0C36C1FEB97CF003F033D /* UIView+Size.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DB7DAF733A67B661CF49557D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB84EDB4A6D030D6B3ECBC05 /* libPods-GWWebViewPro.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		225760501FE90FE000DFC770 /* GWWebViewPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 225760671FE90FE000DFC770 /* Build configuration list for PBXNativeTarget "GWWebViewPro" */;
+			buildPhases = (
+				7E98B56C4CF890719D7B3873 /* [CP] Check Pods Manifest.lock */,
+				2257604D1FE90FE000DFC770 /* Sources */,
+				2257604E1FE90FE000DFC770 /* Frameworks */,
+				2257604F1FE90FE000DFC770 /* Resources */,
+				B7B05CA5F07C8ADF2CC86D2E /* [CP] Embed Pods Frameworks */,
+				85EDB48037B8F0390BAC971C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GWWebViewPro;
+			productName = GWWebViewPro;
+			productReference = 225760511FE90FE000DFC770 /* GWWebViewPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		225760491FE90FE000DFC770 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = YangGenWei;
+				TargetAttributes = {
+					225760501FE90FE000DFC770 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2257604C1FE90FE000DFC770 /* Build configuration list for PBXProject "GWWebViewPro" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 225760481FE90FE000DFC770;
+			productRefGroup = 225760521FE90FE000DFC770 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				225760501FE90FE000DFC770 /* GWWebViewPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2257604F1FE90FE000DFC770 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				225760611FE90FE000DFC770 /* LaunchScreen.storyboard in Resources */,
+				2257605E1FE90FE000DFC770 /* Assets.xcassets in Resources */,
+				22B0C3721FEB9F79003F033D /* download.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E98B56C4CF890719D7B3873 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GWWebViewPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		85EDB48037B8F0390BAC971C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GWWebViewPro/Pods-GWWebViewPro-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWWebViewPro/Pods-GWWebViewPro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B7B05CA5F07C8ADF2CC86D2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GWWebViewPro/Pods-GWWebViewPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2257604D1FE90FE000DFC770 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22B0C36D1FEB9802003F033D /* PMBTools.m in Sources */,
+				22B0C36E1FEB9802003F033D /* UIView+Size.m in Sources */,
+				225760641FE90FE000DFC770 /* main.m in Sources */,
+				2257607D1FE91B6500DFC770 /* GWWebView.m in Sources */,
+				22EB15E41FEA8D67008721D6 /* GWRootViewController.m in Sources */,
+				22EB15EA1FEA8E49008721D6 /* GWImageBrowseView.m in Sources */,
+				225760561FE90FE000DFC770 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2257605F1FE90FE000DFC770 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				225760601FE90FE000DFC770 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		225760651FE90FE000DFC770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		225760661FE90FE000DFC770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		225760681FE90FE000DFC770 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E614231BEE53AA377706711 /* Pods-GWWebViewPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWWebViewPro/PrefixHeader.pch";
+				INFOPLIST_FILE = GWWebViewPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanggenwei.GWWebViewPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		225760691FE90FE000DFC770 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F3E9B523F4A7E1C9308BA2F /* Pods-GWWebViewPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WBQXY8H29L;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/GWWebViewPro/PrefixHeader.pch";
+				INFOPLIST_FILE = GWWebViewPro/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yanggenwei.GWWebViewPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2257604C1FE90FE000DFC770 /* Build configuration list for PBXProject "GWWebViewPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225760651FE90FE000DFC770 /* Debug */,
+				225760661FE90FE000DFC770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		225760671FE90FE000DFC770 /* Build configuration list for PBXNativeTarget "GWWebViewPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				225760681FE90FE000DFC770 /* Debug */,
+				225760691FE90FE000DFC770 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 225760491FE90FE000DFC770 /* Project object */;
+}
