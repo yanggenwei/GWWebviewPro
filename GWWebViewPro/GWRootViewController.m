@@ -33,7 +33,7 @@
 
 
 - (void)webView:(WKWebView *)webView didFinishNavigation:(WKNavigation *)navigation{
-    static  NSString * const jsGetImages =
+    static  NSString * const imagesJS =
     @"function getImages(){\
     var objs = document.getElementsByTagName(\"img\");\
     var imgScr = '';\
@@ -43,7 +43,7 @@
     return imgScr;\
     };";
     
-    [webView evaluateJavaScript:jsGetImages completionHandler:nil];
+    [webView evaluateJavaScript:imagesJS completionHandler:nil];
     [webView evaluateJavaScript:@"getImages()" completionHandler:^(id _Nullable result, NSError * _Nullable error) {
         NSArray *urlArray = [NSMutableArray arrayWithArray:[result componentsSeparatedByString:@"+"]];
         //里面如果有空的需要过滤掉
@@ -72,17 +72,12 @@
 -(void)webView:(WKWebView *)webView decidePolicyForNavigationAction:(WKNavigationAction *)navigationAction decisionHandler:(void (^)(WKNavigationActionPolicy))decisionHandler{
     
     //如果是跳转一个新页面
-//    NSLog(@"点击;%@",navigationAction.request);
-    NSLog(@"navigationAction.targetFrame:%@",navigationAction.targetFrame.request);
     if (navigationAction.targetFrame.request != nil) {
-        
         NSString *selectedImgURL = navigationAction.request.URL.absoluteString;
-        NSLog(@"%@,%@",self.image_list,selectedImgURL);
         self.imageBrowseView = [GWImageBrowseView browseImages:self.image_list selectedImagePath:selectedImgURL];
         [self.view addSubview:self.imageBrowseView];
          decisionHandler(WKNavigationActionPolicyCancel);
     }else{
-//
        decisionHandler(WKNavigationActionPolicyAllow);
     }
 }
